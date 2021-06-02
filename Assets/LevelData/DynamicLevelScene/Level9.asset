@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5d75d1ba270784ea36e589376d818e, type: 3}
+  m_Name: Level9
+  m_EditorClassIdentifier: 
+  name: Feniel
+  OpponentName: Feniel
+  Gold: 110
+  PlusLevels: 5
+  damagePerAttack: 50
+  HitCoolDownEnemy: 0.5
+  EnemyHealth: 170
+  Map: {fileID: 1828519591311075778, guid: 3d57811ba6899e8488ac7c4231d4ad4e, type: 3}
+  gameManagerPrefab: {fileID: 254689313899554924, guid: 11150a137038ffd41af409a00c7ddd08,
+    type: 3}
+  BackgroundPrefab: {fileID: 5180915106532502689, guid: c30a23102bc08d8438418e1bdf8b1189,
+    type: 3}
+  playerPrefab: {fileID: 6979350849593420240, guid: 0a3998f84b230ae478d010fe338cfd56,
+    type: 3}
+  enemyPrefab: {fileID: 1094239634429641617, guid: 767d53685fe192143b1b364c85dc4a67,
+    type: 3}
+  canvasPrefab: {fileID: 1648227293831882297, guid: 653af3b679b8edf46b69081f54a7cdeb,
+    type: 3}
+  rewardCanvasPrefab: {fileID: 4774223392866910883, guid: 1448a2f22794f05409a578620f56a943,
+    type: 3}
+  hitLayerPlayer:
+    serializedVersion: 2
+    m_Bits: 512
+  hitLayerEnemy:
+    serializedVersion: 2
+    m_Bits: 1024
+  knockBackVelocityEnemy: {x: 6, y: 6}
+  knockBackVelocity: {x: 6, y: 6}
+  playerSpawn: {x: 2, y: 3, z: 0}
+  enemySpawn: {x: -2, y: 3, z: 0}
+  canvasSpawn: {x: 0, y: 0, z: 0}
+  mapSpawn: {x: 0, y: -2, z: 0}
+  rewardCanvasSpawn: {x: 0, y: 0, z: 0}
+  useClamp: 1
+  useClampX: 0
+  useClampY: 0
+  useClampZ: 0
+  ClampXMin: 0
+  ClampXMax: 0
+  ClampYMin: 0
+  ClampYMax: 0
+  ClampZMin: 0
+  ClampZMax: 0
+  useOffset: 1
+  useOffsetX: 0
+  useOffsetY: 1
+  useOffsetZ: 0
+  OffsetX: 0
+  OffsetY: 1.5
+  OffsetZ: 0
